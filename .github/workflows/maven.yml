@@ -32,7 +32,7 @@ jobs:
         
     - name: Build and Tests with Maven
     # executa o ciclo de vida e testes automatizados
-      run: mvn -B veridy --file pom.xml
+      run: mvn -B verify --file pom.xml
 
     - name: Gerar artefato
     # No CD, o código é convertido em artefatos como JAR
